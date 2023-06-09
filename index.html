@@ -13,7 +13,6 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./SASS/styles.scss">
 </head>
 
 <body>
@@ -35,17 +34,23 @@
             <h2>Fonctionnement</h2>
             <div class="functioningdesktop">
             <div class="stage">
-                <p class="number">1</p>
+                <div class="number">
+                    <p class="number123">1</p>
+                </div>
                 <i class="fa-solid fa-mobile-screen-button"></i>
                 <p>Choisissez un restaurant</p>
             </div>
             <div class="stage">
-                <p class="number">2</p>
+                <div class="number">
+                    <p class="number123">2</p>
+                </div>
                 <i class="fa-solid fa-list-ul"></i>
                 <p>Composez votre menu</p>
             </div>
             <div class="stage">
-                <p class="number">3</p>
+                <div class="number">
+                    <p class="number123">3</p>
+                </div>
                 <i class="fa-solid fa-store"></i>
                 <p>Dégustez au restaurant</p>
             </div>
@@ -56,7 +61,12 @@
             <div class="restaurantsdesktop">
             <article class="cardmenu">
                 <a href="restaurants/la-palette-du-gout.html">
-                    <img src="/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image d'une assiete">
+                    <img src="./assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image d'une assiete">
+                    <div class="popup">
+                        <div class="rectangle">
+                            <p class="nouveau">Nouveau</p>
+                        </div>
+                    </div>
                     <div class="cardcontenu">
                         <div class="cardwrite">
                             <p class="cardtitle">La palette du goût</p>
@@ -69,7 +79,12 @@
             </article>
             <article class="cardmenu">
                 <a href="restaurants/la-note-enchantée.html">
-                    <img src="/assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image d'une assiete">
+                    <img src="./assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image d'une assiete">
+                    <div class="popup">
+                        <div class="rectangle">
+                            <p class="nouveau">Nouveau</p>
+                        </div>
+                    </div>
                     <div class="cardcontenu">
                         <div class="cardwrite">
                             <p class="cardtitle">La note enchantée</p>
@@ -82,7 +97,7 @@
             </article>
             <article class="cardmenu">
                 <a href="restaurants/a-la-francaise.html">
-                    <img src="/assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image d'une assiete">
+                    <img src="./assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image d'une assiete">
                     <div class="cardcontenu">
                         <div class="cardwrite">
                             <p class="cardtitle">À la française</p>
@@ -95,7 +110,7 @@
             </article>
             <article class="cardmenu">
                 <a href="restaurants/le-delice-des-sens.html">
-                    <img src="/assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image d'une assiete">
+                    <img src="./assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image d'une assiete">
                     <div class="cardcontenu">
                         <div class="cardwrite">
                             <p class="cardtitle">Le délice des sens</p>
@@ -118,8 +133,10 @@
                 </ul>
                 <div class="footerdesktop">
                     <div class="lien">
-                        <i class="fa-solid fa-utensils"></i>Proposer un restaurant</li>
-                        <i class="fa-sharp fa-solid fa-handshake-angle"></i>Devenir partenaire</li>
+                        <div class="partenaire">
+                            <i class="fa-solid fa-utensils"></i>Proposer un restaurant</li>
+                            <i class="fa-sharp fa-solid fa-handshake-angle"></i>Devenir partenaire</li>
+                        </div>
                         <p>Mentions légales</p>
                         <p>Contact</p>
                     </div>
