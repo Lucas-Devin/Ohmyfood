@@ -5,6 +5,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+/**loader**/
 @keyframes spin {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -52,6 +53,7 @@
 body {
   width: 100%;
   margin: 0%;
+  overflow-x: hidden;
 }
 
 html {
@@ -118,6 +120,7 @@ html {
   opacity: 1;
 }
 
+/**bouton**/
 .explo:hover {
   transition-property: all;
   transition-duration: 450ms;
@@ -171,6 +174,7 @@ html {
   color: #9356DC;
 }
 
+/** coeur**/
 .fa-heart {
   color: #101010;
   position: absolute;
@@ -186,7 +190,6 @@ html {
 .fullheart:hover {
   opacity: 1;
   background-clip: text;
-  /*le webkit pour chrome */
   -webkit-background-clip: text;
   color: transparent;
   background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -286,6 +289,10 @@ footer li {
   display: flex;
 }
 
+footer a {
+  color: #FFFFFF;
+}
+
 .footerdesktop {
   display: none;
 }
@@ -383,6 +390,7 @@ footer li {
   margin-bottom: 0px;
 }
 
+/**check**/
 .card {
   display: flex;
   flex-direction: row;
@@ -449,6 +457,7 @@ footer li {
   opacity: 1;
 }
 
+/**bouton**/
 .commander:hover {
   transition-property: all;
   transition-duration: 450ms;
@@ -461,6 +470,7 @@ footer li {
   justify-content: center;
 }
 
+/**cascade**/
 .vignetsentrees {
   animation: fadein 1.8s;
   -moz-animation: fadein 1.8s; /* Firefox */
@@ -514,6 +524,7 @@ footer li {
     opacity: 1;
   }
 }
+/**check suite**/
 .animcheck {
   display: flex;
   width: 0;
@@ -640,7 +651,7 @@ footer li {
   .restaurants {
     width: 100%;
     display: flex;
-    align-items: center;
+    padding-left: 20%;
   }
   .restaurantsdesktop {
     display: grid;
